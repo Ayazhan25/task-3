@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-image: url(../img/sky.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+  padding-bottom: 138px;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+h1{
+  font: 'roboto';
+  font-size: 54px;
+  color: #003395;
+  margin-bottom: 27px;
+}
+p{
+  font: 'roboto';
+  font-size: 18px;
+}
+nav{
+  background-color: #003395;
+  padding-top: 27px;
+  padding-bottom: 26px;
+}
+nav a{
+  margin-right: 62px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.left_box{
+ display: inline-block;
+ width: 754px;
+}
+.right_box{
+  display: inline-block;
+  width: 362px;
+  vertical-align: top;
+  margin-left: 30px;
+}
+h2{
+  margin-top: 57px;
+  font-family: 'roboto';
+  color: #003395;
+  font-size: 27px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  border-top: 2px solid #003395;
+  border-bottom: 2px solid #003395;
+}
+p{
+  font-family: 'roboto';
+  color: #30233D;
+  font-size: 24px;
+}
+.news{
+  border: 2px solid #003395;
+  padding-top: 19px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-bottom: 26px;
+  margin-top: 56px;
+  margin-bottom: 55px;
+}
+.links{
+  border: 2px solid #003395;
+  padding-top: 19px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-bottom: 26px;
+}
+h3{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: #24B0FF;
+  color: #FFFFFF;
+  font-size: 27px;
+  font-family: 'roboto';
+}
+.news p{
+  font-family: 'roboto';
+  font-size: 16.2px;
+  color: #30233D;
+  line-height: 26.46px;
+} 
+li {
+  list-style: none;
+  color: #30233D;
+  font-size: 16.2px;
+  line-height: 26.46px;
+  text-decoration: none;
+}
+footer{
+  background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+  padding-top: 45px;
+  padding-bottom: 83px;
+}
